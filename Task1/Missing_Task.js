@@ -39,3 +39,19 @@ console.log(getTasksByStatus(tasks, "done"));
 // Test 3: Empty status
 console.log("All Tasks:");
 console.log(getTasksByStatus(tasks, ""));
+
+
+// Output:
+// Open Tasks:
+// [
+//   { id: 2, title: 'Add task', status: 'open' },
+//   { id: 3, title: 'Update API', status: 'open' }
+// ]
+// Done Tasks:
+// [ { id: 1, title: 'Login', status: 'done' } ]
+// All Tasks:
+// [
+//   { id: 1, title: 'Login', status: 'done' },
+//   { id: 2, title: 'Add task', status: 'open' },
+//   { id: 3, title: 'Update API', status: 'open' }
+// ]
